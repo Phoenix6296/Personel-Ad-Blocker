@@ -1,0 +1,13 @@
+{
+    "name": "Personel Ad Blocker", 
+    "description": "Krishna's Ad Blocker",
+    "manifest_version": 2,
+    "version": "1.0", 
+    "background": {
+        "scripts": ["blockedsites_v2.js", "adBlockCode.js"]
+    },
+    "icons":{
+        "128":"icons/logo.png"
+    },
+    "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"]
+}
